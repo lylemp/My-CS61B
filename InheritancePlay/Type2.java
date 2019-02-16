@@ -3,7 +3,6 @@ public class Type2 extends Type1 {
     //explicitly stating constructor is optional, in this case
     public Type2() {
         super();
-        System.out.println("Type2 initialized!");
     }
 
     //helloWorld method has been inherited

@@ -6,24 +6,24 @@ public class Driver {
     //Note: each method body contains the answer
 
     public static void main(String[] args) {
-        question0_10();
-        question0_20();
-        question0_21();
-        question1();
-        question2();
-        question3_10();
-        question3_11();
-        question3_20();
-        question3_21();
-        question4();
-        question5();
-        question6();
-        question7();
-        question8();
-        question9();
-        question10();
-        question11();
-        question12();
+        question0_10(); //correct
+        question0_20(); //incorrect. should be runtime.
+        question0_21(); //correct
+        question1(); //correct
+        question2(); //correct
+        question3_10(); //correct
+        question3_11(); //correct
+        question3_20(); //correct
+        question3_21(); //correct
+        question4(); //correct
+        question5(); //correct
+        question6(); //correct
+        question7(); //correct
+        question8(); //correct
+        question9(); //correct
+        question10(); //correct
+        question11(); //runtime (at line 7)
+        question12(); //correct
 
     }
 
@@ -62,7 +62,7 @@ public class Driver {
     }
 
     private static void question0_20() {
-        String answer = "";
+        String answer = "runtime";
 
 
         pause(2);
@@ -197,7 +197,7 @@ public class Driver {
         System.out.println("Consider the following code:");
         System.out.println("Type1 a = new Type1();");
         System.out.println("Type2 b = new Type2();");
-        System.out.println("a = (Type1) b");
+        System.out.println("a = (Type1) b;");
         System.out.println("a.method();");
 
 
@@ -217,14 +217,14 @@ public class Driver {
     }
 
     private static void question3_20() {
-        String answer = "";
+        String answer = "runtime";
 
 
         pause(2);
         System.out.println("Consider the following code:");
         System.out.println("Type1 a = new Type1();");
         System.out.println("Type2 b = new Type2();");
-        System.out.println("b = (Type2) a");
+        System.out.println("b = (Type2) a;");
 
 
         System.out.println("What would be the output? (If error, state whether it is at 'compilation' or 'runtime')");
@@ -250,7 +250,7 @@ public class Driver {
         System.out.println("Consider the following code:");
         System.out.println("Type1 a = new Type1();");
         System.out.println("Type2 b = new Type2();");
-        System.out.println("b = (Type2) a");
+        System.out.println("b = (Type2) a;");
         System.out.println("b.method();");
 
 
@@ -431,7 +431,7 @@ public class Driver {
         System.out.println("Consider the following code:");
         System.out.println("Type1 a = new Type1();");
         System.out.println("Type1 b = new Type2();");
-        System.out.println("b = a");
+        System.out.println("b = a;");
         System.out.println("((Type2) b).method();");
 
 
@@ -459,7 +459,7 @@ public class Driver {
         System.out.println("Consider the following code:");
         System.out.println("Type1 a = new Type1();");
         System.out.println("Type1 b = new Type2();");
-        System.out.println("b = (Type2) a");
+        System.out.println("b = (Type2) a;");
         System.out.println("((Type2) b).method();");
 
 
@@ -486,7 +486,7 @@ public class Driver {
         System.out.println("Consider the following code:");
         System.out.println("Type1 a = new Type1();");
         System.out.println("Type1 b = new Type2();");
-        System.out.println("a = b");
+        System.out.println("a = b;");
         System.out.println("a.method();");
 
 
